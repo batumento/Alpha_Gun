@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58b078ad8d5cd843b49fa1e2258f345, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  weaponIcon: {fileID: 21300000, guid: b509b81933e4daa47a5298f1757b7abf, type: 2}
+  prefab: {fileID: 3714394853464557882, guid: da5b975382a22a844800e9e6a6c41bc0, type: 3}
+  mermiPrefab: {fileID: 7474052162169804002, guid: 27ca48614c5a0114abbce67ff53e2786, type: 3}
+  fireRate: 4
+  reloadTime: 3
+  minDamage: 45
+  maxDamage: 65
+  ammo: 12
+  clipSize: 12
+  burst: 1
+  soundEffect: {fileID: 0}
+  reloadSound: {fileID: 0}
+  pitchRandomization: 3
+  soundVolume: 5
+  stash: 12
+  clip: 12

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58b078ad8d5cd843b49fa1e2258f345, type: 3}
+  m_Name: AK47
+  m_EditorClassIdentifier: 
+  weaponName: AK-47
+  weaponIcon: {fileID: 21300000, guid: dfc46b7ef773d124c8be0b746e32e95a, type: 2}
+  prefab: {fileID: 6074140525667600377, guid: 568605fa5fd0a9842b1f199565caa278, type: 3}
+  mermiPrefab: {fileID: 83842123971139228, guid: 7210730b9f4217f449e00ad142c53f24, type: 3}
+  fireRate: 9
+  reloadTime: 0.1
+  minDamage: 10
+  maxDamage: 30
+  ammo: 90
+  clipSize: 30
+  burst: 9
+  soundEffect: {fileID: 0}
+  reloadSound: {fileID: 0}
+  pitchRandomization: 5
+  soundVolume: 5
+  stash: 90
+  clip: 30
