@@ -1497,6 +1497,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2134558951}
     - target: {fileID: 1728282751564015512, guid: 612123fba1615ae448dbcaf75d48fa61, type: 3}
+      propertyPath: animatorSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728282751564015512, guid: 612123fba1615ae448dbcaf75d48fa61, type: 3}
       propertyPath: beforeGamePanel
       value: 
       objectReference: {fileID: 868532966}
