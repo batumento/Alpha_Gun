@@ -29,6 +29,15 @@ public class PlayerController : MonoBehaviour
         healthPlayer = GetComponent<HealthPlayer>();
         weaponController = GetComponent<WeaponController>();
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.tag == "HydrantObs")
+        {
+            Physics.IgnoreCollision(collision.transform.GetComponent<BoxCollider>(), GetComponent<CapsuleCollider>(), true);
+        }
+    }
+
     private void FixedUpdate()
     {
         if ((hMove != 0 || vMove != 0) && isMovementForPanel < 1)
